@@ -12,6 +12,7 @@
 	<groupId>ecommerce.user</groupId>
 	<artifactId>User_Ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>User_Ms</name>
 	<description>user ms</description>
 	<url />
