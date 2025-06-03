@@ -48,4 +48,4 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/userms:latest
 
             echo "Subindo novo container do userms..."
-            docker run -d --name userms -p 8081:8080 --network ecommerce-net ${{ secrets.DOCKER_USERNAME }}/userms:latest
+            docker run -d --name userms -p 8082:8080 --network ecommerce-net ${{ secrets.DOCKER_USERNAME }}/userms:latest
